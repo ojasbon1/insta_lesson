@@ -1,0 +1,10 @@
+
+ <h1>Instagram Apps</h1>
+<%=link_to "new post", new_post_path %>
+<% @posts.each do |post| %>
+
+
+    <li><%= link_to post.caption, "/posts/#{post.id}" %> </li>
+<% end %>
+
+

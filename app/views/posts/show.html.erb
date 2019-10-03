@@ -1,0 +1,12 @@
+
+<%= @post.caption %>
+
+<% if @post.picture.attached? %>
+    <%= image_tag(@post.picture,height: 200) %>
+<% end %>
+
+<%= link_to "Delete", post_path(@post), 
+method: :delete,
+data:{confirm:"Are you sure"} %> <br> <br>
+
+<%=link_to "Main", posts_path %>
