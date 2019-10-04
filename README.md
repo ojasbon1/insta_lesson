@@ -1,6 +1,6 @@
 # README
 
-este es el nuevo readme Oscar
+este es el nuevo readme Oscar ver nueva hoy viernes
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
