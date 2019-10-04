@@ -1,8 +1,14 @@
-
+<style>
+    .picshow{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
 <%= @post.caption %>
 
 <% if @post.picture.attached? %>
-    <%= image_tag(@post.picture,height: 200) %>
+    <%= image_tag(@post.picture,height: 200, class:"picshow") %>
 <% end %>
 
 <%= link_to "Delete", post_path(@post), 
