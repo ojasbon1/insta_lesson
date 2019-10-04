@@ -1,7 +1,8 @@
 # README
 
-este es el nuevo readme Oscar ver nueva hoy viernes
-
+## este es el nuevo readme Oscar ver nueva hoy viernes
+Este es otro cambio de hoy viernes
+___________________________________________________
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
